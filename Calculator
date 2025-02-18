@@ -1,0 +1,37 @@
+#def restar_dos_números(a, b)
+# return a - b
+ #def operación 
+ #if: operación == 'resta'
+ #resta = (a-b)
+ #print restar_dos_números 2-1 
+
+#def suma(a, b):
+#    return a + b
+
+#resultado = suma(3, 2)
+
+#def resta(a, b):
+#   return a - b
+
+#resultado = resta(3, 2)
+#print(resultado)
+import math
+def calculate (a, b, operación):
+    if operación == "suma":
+        return a + b
+    elif operación == "resta":
+        return a - b
+    elif operación == "multiplicación":
+        return a * b
+    elif operación == "división":
+        return a / b
+    elif operación == "potencia":
+        return a * a
+    elif operación == "raíz cuadrada":
+        return math.sqrt(a)
+    else:
+        return "Operación invalida"
+    
+print(calculate(14, 0, "potencia"))
+print(calculate(5, 3, "multiplicación"))
+print(calculate(196, 0, "raíz cuadrada"))
