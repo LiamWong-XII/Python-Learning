@@ -45,7 +45,7 @@ def delete_text(text):
 #print(delete_text("El Principito"))
 
 
-#Actividad y Replicar la Libreria en puro texto
+# TODO: Actividad y Replicar la Libreria en puro texto
 #ciclos for, while
 #listas, diccionarios
 #funciones crear menu para el usuario
@@ -66,5 +66,7 @@ def menu():
 def library(user_input):
     library = []
     if user_input == "1":
+        # TODO: Explicar que es lo que se tiene que hacer o que es lo que hace esta linea
         text = input("Please set the name of a book you want to store in the library: ")
         return menu()
+    # TODO: Meter funcion de lectura de libros
