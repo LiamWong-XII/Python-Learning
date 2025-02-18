@@ -16,12 +16,15 @@ Este es un proyexdto de aprendizaje de Python
 ```cmd
 python3 Calculator.py
 ```
+## Guías de uso de GitHub
+
+* [Guía GitHub](https://skills.github.com/)
+
+
+## Guías de Python
+
+* [30 days of Python](https://github.com/Asabeneh/30-Days-Of-Python)
 
 # Autores
 
 [William Fuentes](fuwong.will@gmail.com)
-## titulo 2
-
-### subtitulo
-
-#### último subtitulo
